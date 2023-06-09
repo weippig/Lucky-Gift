@@ -1,4 +1,5 @@
 # Lucky-Gift
+NFT Gachapon Machine (♡˙︶˙♡)
 
 ## How to start 
 ### Prerequisite
