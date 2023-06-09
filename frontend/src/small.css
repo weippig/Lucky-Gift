@@ -1,0 +1,15 @@
+#loading_wrap{
+	margin-top:130px;
+	margin-bottom:130px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+
+#loading{
+	position: relative;
+	margin-left:5vw;
+	margin-right:5vw;
+	width:500px;
+}

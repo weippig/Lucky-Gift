@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+
+
+#banner{
+	border-bottom:1px solid #527479;
+	padding-top:10px;
+	padding-bottom:10px;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+#title_wrap{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	margin-right:5vw;
+	margin-left:2vw;
+}
+
+#title{
+	user-select: none;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 40px;
+	color:#527479;
+	font-weight: bold;
+}
+
+.index{
+	user-select: none;
+	font-family: 'Noto Sans TC', sans-serif;
+	padding-top:5px;
+	font-size:20px;
+	margin-right:3vw;
+}
+
+.index:hover{
+	cursor:pointer;
+	font-family: 'Noto Sans TC', sans-serif;
+	padding-top:5px;
+	font-size:20px;
+	margin-right:3vw;
+	border-bottom:solid;
+	border-color:#527479;
+}
+
+#personal_btn{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Noto Sans TC', sans-serif;
+	/* border-style:none;
+	background-color:#527479;
+	border-radius:10px;
+	color:#FCFCFC;
+	width:140px;
+	height:50px;
+	margin-left:53vw;
+	user-select: none; */
+}
+
+#personal_btn:hover{
+	cursor:pointer; 
+}
+
+#wallet{
+	padding-right:10px;
+	margin-right:10px;
+	border-right: 1px solid #FCFCFC;
+}
+
+#personal_body_wrap{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:99vw; 
+	height:80vh;
+}
+
+#personal_body{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:70vw;
+	height:83vh;
+}
+
+#personal_name{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	color:#FCFCFC;
+	margin-left:2.5vw;
+	margin-right:55vw;
+	user-select: none;
+}
+
+#personal_tite{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	border-radius: 5px 5px 0 0;
+	width:100%;
+	height:10%;
+	background-color:#3C3C3C;
+	opacity: .7;
+}
+
+#personal_main{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	border-radius: 0 0 5px 5px;
+	width:100%;
+	height:75%;
+	background-color:#F0F0F0;
+}
+
+#left_main_wrap{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+	width:25%;
+	height:100%;
+}
+
+#right_main_wrap{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	width:75%;
+	height:100%;
+}
+
+#left_tag_wrap{
+	margin-top:15%;
+	border-top: 0.5px solid #3C3C3C;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	width:70%;
+	height:70%;
+}
+
+.left_tag{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:10%;
+	margin-bottom:10%;
+	color:#7B7B7B;
+}
+
+.left_tag:hover{
+	cursor:pointer;
+	border-bottom:solid;
+	border-color:#D0D0D0;
+}
+
+.right_main_block{
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+	width:90%;
+	height:82%;
+	background-color:#FCFCFC;
+	border-radius:5px;
+}
+
+#right_main_block_title_wrap{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	width:90%;
+	height:15%;
+	border-bottom:solid;
+}
+
+#gift_record_frame{
+	overflow:auto;
+	display: flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	height:85%;
+	max-height:85%;
+	width:90%;
+}
+
+#gift_record_frame::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #F5F5F5;
+}
+
+.gift_record{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	margin-top:2%;
+	width:90%;
+	border: 0.5px solid #3C3C3C;
+	border-radius: 5px;
+}
+
+.gift_record_nft{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	margin-top:2%;
+	width:97%;
+	border: 0.5px solid #3C3C3C;
+	border-radius: 5px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+.gift_record_right_line3_nft{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	margin-top:5px;
+	border-style:solid;
+}
+
+.gift_record_right_line3_text_nft{
+	color:#6C6C6C;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:15px;
+	border-style:solid;
+}
+
+.gift_record_right_line3_text_nft2{
+	color:#6C6C6C;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:15px;
+	margin-right:5px;
+	border-style:solid;
+	margin-right:400px;
+	margin-left:10px;
+}
+
+.gift_record_right_nft{
+	height:130px;
+	width:50%;
+	margin-right:-350px;
+}
+
+.record_image{
+	height:100px;
+	width:100px;
+	border-radius:5px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right:20px;
+}
+
+.gift_record_right{
+	height:100px;
+	width:50%;
+}
+
+.gift_record_right_line1{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:5px;
+}
+
+.gift_record_right_line2{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	margin-top:5px;
+}
+
+.gift_record_right_line2_text{
+	color:#6C6C6C;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:15px;
+	
+}
+
+.gift_record_right_line3{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	margin-top:5px;
+}
+
+.gift_record_right_line3_text{
+	color:#6C6C6C;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:15px;
+	margin-right:5px;
+}
+
+#right_main_block_title{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	margin-left:4%;
+	color:#3C3C3C;
+}
+
+
+#common_title{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	color:#527479;
+}

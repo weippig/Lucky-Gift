@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+
+
+#detail_wrap{
+	background-color:#F0F0F0;
+	height:97vh;
+	widht:100vw;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+#detail_content_wrap{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+	margin-bottom:3vh;
+}
+
+#detail_title{
+	user-select: none;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 40px;
+	color:#6C6C6C;
+	font-weight: bold;
+	margin-bottom:3vh;
+}
+
+#detail_describe{
+	user-select: none;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 20px;
+	color:#6C6C6C;
+	margin-bottom:3vh;
+}
+
+#detail_describe_wrap{
+	width:40%;
+}
+
+#detail_content_text{
+	font-size: 20px;
+	border-bottom:1px solid #7B7B7B;
+}
+
+#attend{
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color: #D3D3D3;
+	border: none;
+	color: #6C6C6C;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight:bold;
+}
+
+#detail_button_wrap{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:30%;
+}

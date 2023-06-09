@@ -1,0 +1,45 @@
+#personal_btn{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Noto Sans TC', sans-serif;
+	border-style:none;
+	background-color:#527479;
+	border-radius:10px;
+	color:#FCFCFC;
+	width:140px;
+	height:50px;
+	position: absolute; /*or fixed*/
+  right: 30px;
+	top: 14px;
+	user-select: none;
+}
+
+
+#personal_btn:hover{
+	cursor:pointer; 
+}
+
+#wallet_address{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Noto Sans TC', sans-serif;
+	border-style:none;
+	background-color:#527479;
+	border-radius:10px;
+	color:#FCFCFC;
+	width:450px;
+	height:50px;
+	user-select: none;
+	position: absolute; /*or fixed*/
+  right: 30px;
+	top: 14px;
+}
+
+
+#wallet_address:hover{
+	cursor:pointer; 
+}
