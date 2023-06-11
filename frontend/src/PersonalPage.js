@@ -1,4 +1,5 @@
 import "./PersonalPage.css"
+import "./MyNFT.css"
 import React, { useState , useEffect } from 'react';
 import { InjectedConnector } from 'wagmi/connectors/injected'
 import ConnectButton from "./component/connect";

@@ -79,6 +79,7 @@
 	align-items:center;
 	width:99vw; 
 	height:80vh;
+	user-select: text;
 }
 
 #personal_body{
@@ -212,51 +213,8 @@
 	width:90%;
 	border: 0.5px solid #3C3C3C;
 	border-radius: 5px;
-}
-
-.gift_record_nft{
-	display: flex;
-	flex-direction:row;
-	justify-content:flex-start;
-	align-items:center;
-	margin-top:2%;
-	width:97%;
-	border: 0.5px solid #3C3C3C;
-	border-radius: 5px;
-	padding-top:10px;
-	padding-bottom:20px;
-}
-
-.gift_record_right_line3_nft{
-	display: flex;
-	flex-direction:row;
-	justify-content:flex-start;
-	align-items:center;
-	margin-top:5px;
-	border-style:solid;
-}
-
-.gift_record_right_line3_text_nft{
-	color:#6C6C6C;
-	font-family: 'Noto Sans TC', sans-serif;
-	font-size:15px;
-	border-style:solid;
-}
-
-.gift_record_right_line3_text_nft2{
-	color:#6C6C6C;
-	font-family: 'Noto Sans TC', sans-serif;
-	font-size:15px;
-	margin-right:5px;
-	border-style:solid;
-	margin-right:400px;
-	margin-left:10px;
-}
-
-.gift_record_right_nft{
-	height:130px;
-	width:50%;
-	margin-right:-350px;
+	padding-top:15px;
+	padding-bottom:15px;
 }
 
 .record_image{
@@ -275,6 +233,7 @@
 }
 
 .gift_record_right_line1{
+	user-select: none;
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size:17px;
 	font-weight:bold;
@@ -290,6 +249,7 @@
 }
 
 .gift_record_right_line2_text{
+	user-select: none;
 	color:#6C6C6C;
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size:15px;
@@ -305,6 +265,7 @@
 }
 
 .gift_record_right_line3_text{
+	user-select: none;
 	color:#6C6C6C;
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size:15px;
@@ -312,6 +273,7 @@
 }
 
 #right_main_block_title{
+	user-select: none;
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size:22px;
 	font-weight:bold;

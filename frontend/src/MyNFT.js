@@ -35,14 +35,14 @@ function NFTDetail(props) {
 
   return(
     <div className="gift_record_nft">
-      <img className="record_image" src={data.image} alt="nike"/>
-      <div className="gift_record_right_nft">
+      <img className="record_image_nft" src={data.image} alt="nike"/>
+      <div className="gift_record_right">
         <div className="gift_record_right_line1">{data.name}</div>
         <div className="gift_record_right_line2"><div className="gift_record_right_line2_text">{data.description}</div></div>
-        <div className="gift_record_right_line3"><div className="gift_record_right_line3_text">Token id: </div><div className="gift_record_right_line3_text">{tokenId}</div></div>
-        <div className="gift_record_right_line3_nft">
-          <div className="gift_record_right_line3_text_nft">Contract address: </div>
-          <div className="gift_record_right_line3_text_nft2">{contract}</div>
+        <div className="gift_record_right_line3"><div className="gift_record_right_line3_text">Token id: </div><div className="">{tokenId}</div></div>
+        <div className="gift_record_right_line4_nft">
+          <div className="gift_record_right_line4_nft_text">Contract address:</div>
+          <div className="gift_record_right_line4_nft_text_contract">{contract}</div>
         </div>
       </div>
     </div>

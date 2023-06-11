@@ -1,0 +1,49 @@
+.gift_record_nft{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	margin-top:2%;
+	border: 0.5px solid #3C3C3C;
+	border-radius: 5px;
+	padding-top:15px;
+	padding-bottom:15px;
+	user-select: none;
+}
+
+.record_image_nft{
+	height:100px;
+	width:100px;
+	border-radius:5px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right:20px;
+	user-select: none;
+}
+
+.gift_record_right_line4_nft{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	width:33vw;
+	user-select: none;
+}
+
+.gift_record_right_line4_nft_text{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:15px;
+	margin-top:5px;
+	margin-right:10px;
+	color:#6C6C6C;
+	user-select: none;
+}
+
+.gift_record_right_line4_nft_text_contract{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size:15px;
+	margin-top:5px;
+	color:#6C6C6C;
+	user-select: text;
+}

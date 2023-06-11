@@ -10,19 +10,19 @@ export default function Small(props) {
   const [isLoading, setIsLoading] = React.useState(true)
 
   function draw() {
-		window.open("http://localhost:3000/DrawDetail/"+props.contract, "_blank", "width=800,height=600");
-	};
+    window.open("http://localhost:3000/DrawDetail/"+props.contract, "_blank", "width=800,height=600");
+  };
 
   useEffect(() => {
-		const getDraws = () => {
-			axios.get('http://localhost:3001/firebase/read/' + props.contract).then(function (response) {
-				setData(response.data)
+    const getDraws = () => {
+      axios.get('http://localhost:3001/firebase/read/' + props.contract).then(function (response) {
+        setData(response.data)
         setIsLoading(false)
-			})
-		}
+      })
+    }
 
-		getDraws()
-	}, [])
+    getDraws()
+  }, [])
 
   if(isLoading){
     return(
