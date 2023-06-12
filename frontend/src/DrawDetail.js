@@ -92,7 +92,7 @@ function DrawDetail() {
 					<div id="detail_content_text">剩餘數量: {data.unsoldUrls.length}</div>
 				</div>
 				<div id="detail_button_wrap">
-					<button id="attend" onClick={draw_btn_click}>參加抽獎</button>
+					<button id="attend" onClick={draw_btn_click}>抽獎</button>
 				</div>
 			</div>
 		</div>

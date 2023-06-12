@@ -41,7 +41,7 @@ export default function Small(props) {
         <div id="event_text_block">
           <div id="event_text_block_level1">
             <div id="event_title">{data.title}</div>
-            <div id="event_btn" onClick={draw}>Mint</div>
+            <div id="event_btn" onClick={draw}>查看詳情</div>
           </div>
           <div id="event_description">
             {

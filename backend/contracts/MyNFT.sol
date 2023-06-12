@@ -10,7 +10,6 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 contract MyNFT is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
-    event NFTId(uint256 id);
 
     constructor(string memory name, string memory abbreviation) ERC721(name, abbreviation) {}
 
@@ -25,13 +24,5 @@ contract MyNFT is ERC721URIStorage, Ownable {
         _setTokenURI(newItemId, tokenURI);
 
         return newItemId;
-    }
-
-    function getID()
-        public onlyOwner
-        view
-        returns (uint256)
-    {
-        return _tokenIds.current();
     }
 }
