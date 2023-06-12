@@ -35,7 +35,6 @@ export default function Small(props) {
   }
 
   return(
-    <div id="event_wrap">
       <div id="event">
         <div id="remaining">{data.unsoldUrls.length}/{data.unsoldUrls.length + data.soldUrls.length}</div>
         <div id="event_img_container"><img id="event_img" src={data.imageUrl} alt=""/></div>
@@ -56,6 +55,5 @@ export default function Small(props) {
           </div>
         </div>
       </div>
-  </div>
   )
 }

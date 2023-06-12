@@ -83,12 +83,17 @@ function Main() {
 				<div className="index" id="index2" onClick={personal_page}>個人資料</div>
 				<div><ConnectButton /></div>
 			</div>
-			<div>
+    	<div>
 				{
-					draws?.map((data) => {
-						return(
-							<Small contract={data} />
-						)
+					draws?.map((data, index) => {
+						if (index % 2 === 0) {
+					    return (
+					      <div key={index} id="event_wrap">
+					        <Small contract={data} />
+					        {draws[index + 1] && <Small contract={draws[index + 1]} />}
+					      </div>
+					    )
+					 	}
 					})
 				}
 			</div>
